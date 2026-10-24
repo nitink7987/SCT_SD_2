@@ -1,50 +1,15 @@
-# Guess the Number Game
+# Number Guessing Game
 
-A user-friendly desktop game built with Python and Tkinter. The program generates a random number between 1 and 100 and challenges the user to guess it.
+A browser-based number guessing game. The game picks a random whole number from 1 to 100. Guess the number using the hints, and track your attempts and remaining range.
 
-This project was created for SkillCraft Technology — Software Development Internship, Task 02.
+## Files
 
-## Features
+- `index.html` — page structure
+- `style.css` — styling
+- `script.js` — game logic
 
-- Generates a random secret number between 1 and 100
-- Accepts a guess from the user
-- Displays whether the guess is too high or too low
-- Narrows the possible-number range after each guess
-- Tracks the number of attempts
-- Validates invalid and out-of-range input
-- Includes a **Start New Game** button
-- Uses a simple graphical user interface built with Tkinter
+## Run locally
 
-## Technologies Used
+Keep all three files in the same folder and open `index.html` in a web browser. No installation or server is needed.
 
-- Python
-- Tkinter
-- Random module
-
-## How to Run
-
-1. Clone this repository.
-2. Open the project folder in VS Code.
-3. Run the following command in the terminal:
-
-```bash
-python3 number_guessing_game.py
-```
-
-## How to Play
-
-1. Start the application.
-2. Enter a whole number from 1 to 100.
-3. Click **Check Guess** or press the Enter key.
-4. Follow the higher/lower hints.
-5. Keep guessing until you find the secret number.
-6. Click **Start New Game** to play again.
-
-## Project Structure
-
-```text
-SCT_SD_2/
-├── number_guessing_game.py
-├── README.md
-└── .gitignore
-```
+Enter a guess and press **Enter** or click **Check Guess**. Click **New Game** to start over with a new number.
